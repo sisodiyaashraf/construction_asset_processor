@@ -1,0 +1,64 @@
+{
+  "generator": "Construction Asset Processor \u2014 Sprite Sheet Engine",
+  "format_version": "1.0.0",
+  "version": "1.0.0",
+  "target_engine": "Flutter + Flame",
+  "flame_integration": {
+    "dart_sample": "// Flutter + Flame SpriteAnimation integration sample:\n// final spriteAnimation = SpriteAnimation.fromFrameData(\n//   game.images.fromCache('spritesheet.png'),\n//   SpriteAnimationData(...),\n// );"
+  },
+  "image": {
+    "source_file": "tracks_sheet.png",
+    "width": 256,
+    "height": 64
+  },
+  "frames": [
+    {
+      "id": null,
+      "index": 0,
+      "name": "tracks_0",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "pivot": {
+        "normalized_x": 0.5,
+        "normalized_y": 1.0,
+        "pixel_offset_x": 32,
+        "pixel_offset_y": 64
+      },
+      "duration_ms": 66
+    },
+    {
+      "id": null,
+      "index": 1,
+      "name": "tracks_1",
+      "rect": {
+        "x": 64,
+        "y": 0,
+        "width": 64,
+        "height": 64
+      },
+      "pivot": {
+        "normalized_x": 0.5,
+        "normalized_y": 1.0,
+        "pixel_offset_x": 32,
+        "pixel_offset_y": 64
+      },
+      "duration_ms": 66
+    }
+  ],
+  "animations": {
+    "Driving": {
+      "fps": 15,
+      "step_time_seconds": 0.0667,
+      "loop": true,
+      "frame_count": 2,
+      "sequence": [
+        0,
+        1
+      ]
+    }
+  }
+}
